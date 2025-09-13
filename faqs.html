@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FAQs | SHPE Texas Tech</title>
+  <link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <header>
+  <nav class="shpe-orange-nav">
+  <a href="shpe.html"><img src="pics/logoo.png" alt="SHPE Logo"/></a>
+  <div class="shpe-nav-links" id="navLinks">
+    <ul>
+      <li><a href="shpe.html">HOME</a></li>
+      <li><a href="board.html">MEET THE BOARD</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="sponsors.html">SPONSORS</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+<!---FAQs Section-->
+<section class="faqs">
+  <h1>Frequently Asked Questions</h1>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      What is SHPE?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>SHPE stands for the Society of Hispanic Professional Engineers. We empower Hispanic students in STEM fields at Texas Tech.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Who can join SHPE?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>Anyone interested in STEM, leadership, and community. All majors and backgrounds are welcome!</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      How do I become a member?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>Come to our meetings, talk to an officer, or come to an event. We’d love to have you join our familia!</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      When and where is SHPE Nationals 2025?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>SHPE Nationals 2025 will take place in Philadelphia, PA, 
+        from October 29 - November 1.
+        <a href="https://shpe.org/engage/events/national-convention/" target="_blank">Learn more here</a>.
+        </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      What amazing person designed this website?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>Awww shucks... Our wonderful and amazing webmaster 
+        (Geraldine, aka Me), designed and published this beautiful site.</p>
+    </div>
+  </div>
+</section>
+
+
+ <!-- FOOTER -->
+  <footer>
+    <p>© 2025 SHPE Texas Tech University Chapter. All rights reserved.</p>
+  </footer>
+
+  <script>
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+
+    question.addEventListener('click', () => {
+      item.classList.toggle('active');
+    });
+  });
+</script>
+
+</body>
+</html>
