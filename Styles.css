@@ -9,7 +9,7 @@
 	width: 100%;
 	background-image:
 	  linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),
-	  url(pics/key.png);
+	  url(key.png);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -439,4 +439,5 @@ body {
 .contact-info a {
   color: #F58220;
   text-decoration: underline;
+
 }
